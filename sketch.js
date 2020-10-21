@@ -30,6 +30,7 @@ function setup() {
 
 	wall2 = new Wall(610, 605, 20,100);
 	wall1 = new Wall(500, 645, 200,20);
+	fill("red");
 	wall3 = new Wall(390, 605, 20,100);
 
 	groundSprite = createSprite(width/2, height-35, width,10);
